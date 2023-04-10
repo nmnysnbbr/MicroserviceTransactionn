@@ -50,7 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
     {
         super.configure(httpSecurity);
 
-        //CSRF -> Cross Site Request Forgerry
+        // CSRF -> Cross Site Request Forgery
         httpSecurity.csrf().disable();
     }
 }

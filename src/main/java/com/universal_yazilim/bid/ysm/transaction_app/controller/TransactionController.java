@@ -2,7 +2,6 @@ package com.universal_yazilim.bid.ysm.transaction_app.controller;
 
 import com.universal_yazilim.bid.ysm.transaction_app.model.entity.Transaction;
 import com.universal_yazilim.bid.ysm.transaction_app.model.service.AbstractTransactionService;
-import com.universal_yazilim.bid.ysm.transaction_app.model.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
